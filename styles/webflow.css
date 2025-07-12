@@ -142,5 +142,71 @@ nav ul li{
     font-size: 14px;
     color: #777;
 }
+.star{
+    color: gold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.hero{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fdfdfd;
 
+}
+.hero h3{
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.from{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.from-container{
+  background-color: white;  
+  width:300px;
+  border-radius: 5px;
+  
+  text-align: left;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.reviewer img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.promo{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+}
+.master{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #111;
+}
+.subtitle{
+    font-size: 1rem;
+    color: #666;
+    margin-bottom:25px ;
+}
+.image{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(red, green, blue, alpha);
+
+}
 
