@@ -190,7 +190,7 @@ nav ul li{
 }
 .promo{
     align-items: center;
-    flex-direction: column;
+    
     
     text-align: center;
 
@@ -228,4 +228,76 @@ nav ul li{
     box-shadow: 0 6px 12px rgba(red, green, blue, alpha);
 
 }
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 50px;
 
+}
+.contact-list h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+
+}
+.contact-right{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(red, green, blue, alpha);
+    width: 350px;
+}
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-right label{
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+.contact-right input,.contact-right textarea{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-
+    radius: 6px;
+    margin-bottom: 15px;
+
+}
+.contact-list textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+.header-section{
+    text-align: center;
+    padding: 80px 20px;
+}
+.logo{
+    font-size: 65px;
+    font-weight: bold;
+    color: #4a47f5;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 16px;
+    color: #888;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #777;
+    font-size: 16px;
+    transition: color 0 3s ease;
+
+}
