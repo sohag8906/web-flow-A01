@@ -33,6 +33,14 @@ nav{
     margin-top: 10px;
 
 }
+
+.btn-primary:hover {
+  background: #463de0;          
+  transform: translateY(-3px);  
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2); 
+}
+
+
 nav ul li{
     list-style: none;
 }
@@ -263,7 +271,7 @@ nav ul li{
     font-size: 16px;
     border: 1px solid #ccc;
     border-
-    radius: 6px;
+    radius: 6 px;
     margin-bottom: 15px;
 
 }
